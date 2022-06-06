@@ -1,0 +1,250 @@
+
+@media (max-width: 768px) {
+    #medioUno img{
+        display: none;
+    }
+    #medioUno h1{
+        color: white;
+        font-size: 90px;
+        width: 340px;
+        height: 340px;;
+        background-color: rgba(0, 0, 0, 0.63);
+        padding-left: 20px;
+        font-style: italic;
+    }
+    #footerUno{
+        display: block;
+        background-image: linear-gradient(0deg, #ffbb00 90%, #ffbb00 4%);
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: 141px;
+    }
+    #footerUno .ecoCafe{
+        color: black;
+        display: flex;
+        gap: 10px;
+    }
+    #footerUno .ecoCafe p{
+        font-size: 16px;
+        font-family: sans-serif;
+        color: rgb(0, 0, 0);
+        display: block;
+    }
+    #footerUno .redes{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+
+    }
+    #footerUno .redes img {
+        width: 45px;
+        border: 4px outset rgb(255, 136, 0);
+        border-radius: 10px ;  
+        text-align: center;
+    }
+    /* ...............................bar */
+    #encajonado{
+        background-color: rgb(27, 27, 27);
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        border-top:8px solid rgb(27, 27, 27) ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    #encajonado .sucursales img {
+        width: 6cm;
+        height: 4cm;
+        justify-content: center;
+        margin-top: 14px;
+        border: 4px outset rgb(255, 123, 0);
+    }
+    #footerDos{
+        display: flex;
+        background-image: linear-gradient(0deg, #ffbb00 4%, #ffbb00 96%);    
+        justify-content: center;
+        align-items: center;
+        border-top: 6px solid rgb(31, 31, 31);
+        padding: 20px;
+        height: 70px;
+        margin-top: 0px; 
+    }
+    /* ......................................carta */
+    #cartaCompleta {
+        background-image: url(./imagenes/fondo-panaderia.jpg);
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        border: 2px outset rgb(255, 174, 0) ;
+        gap: none;
+    }
+    #cartaCompleta .cafesLicuados {
+        width: 100%;
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        font-family: sans-serif;   
+        text-align: center;
+        padding: 10px;   
+    }
+    #cartaCompleta .Panaderia {
+        width: 100%;
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        font-family: sans-serif;   
+        text-align: center;
+        padding: 10px;
+    }
+    #footerTres{
+        display: flex;
+        background-image: linear-gradient(135deg, #ffbb00 84%, #ffbb00 96%);    
+        justify-content: center;
+        padding: 20px;
+        height: 80px;
+        margin-top: -15px;
+    }  
+    /* ...........................................................productos */
+    #productos {
+        background-image: url(./imagenes/fondo-amarillo.jpg);
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    #productos .variedad img{
+        width: 6cm;
+        height: 4cm;
+        border-top:6px solid #131313 ;
+    
+    }
+    #productos .variedad {
+        width: 6cm;
+        height: 6cm;
+        background-color: rgb(17, 17, 17);
+        color: white;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    #productos .variedad h3{
+        font-family: 'Patrick Hand', cursive;
+        font-size: 22px;
+        text-align: center;
+        color: white;
+    }    
+    #productos .variedad h4{
+        font-family: 'Permanent Marker', cursive;
+        font-size: 28px;
+        text-align: center;
+        color:#ffbb00;
+    }    
+    .data{
+        background-color: black;
+        width: 100%;
+        margin-left: 0cm;
+        margin-top: 0px;
+        color:rgb(255, 217, 0) ;
+        text-align: center;
+    }
+    /* ........................contacto */
+    #formulario{
+        background-color: rgb(26, 26, 26);
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0px;
+    }
+    
+    #formulario .trabajo {
+        background-color: rgb(26, 26, 26);
+        width: 100%;
+        height: auto;
+        color: wheat;
+        line-height:40px;
+        font-size: 17px;
+        padding-left: 20px;
+    }
+    #formulario .trabajo input {
+        line-height:20px;
+        display: flex;
+    }
+    .trabajo h2{
+        color:rgba(255, 174, 0) ;
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Permanent Marker', cursive;
+        border-bottom:none;
+    }
+    /* ...................galeria */
+    #fotografias{
+        background-color: black;
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #fotografias .gente{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        padding: 10px;
+    }
+    #fotografias .gente img{
+        width: 4cm;
+        height: 3cm;
+    }
+    .foto {
+        background-color: black;
+        color:rgba(255, 174, 0) ;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 0px;
+        font-family: sans-serif;
+    }
+    /* ........................ecocafe */
+    .ecoCafe{
+        width: 100%;
+        height: auto;
+        margin:0cm;
+        display: block;
+    }
+    .ecoCafe .ecoFoto img{
+        width: 100%;
+    }
+    .ecoCafe .ecoTexto{
+        background-color: rgb(123, 243, 98);
+        color: rgb(0, 94, 0);
+        padding: 10px;
+    }
+    .ecoCafe .ecoTexto ul{
+        color: rgb(0, 94, 0);
+        font-family: sans-serif;
+        font-size: 18px;   
+    }
+    .ecoCafe .ecoTexto h1{
+        font-family: 'Amatic SC', cursive;
+        font-size: 52px;
+    }
+    #footerCuatro{
+        display: flex;
+        background-image: linear-gradient(135deg, #ffbb00 84%, #ffbb00 96%);    
+        justify-content: center;
+        padding: 20px;
+        height: 70px;
+        margin-top: 0px;
+    }
+    #footerCuatro .redesCuatro img {
+        width: 45px;
+        border: 4px outset rgb(255, 136, 0);
+        border-radius: 10px ;  
+    }
+}
