@@ -330,10 +330,66 @@ body{
             }
             
         }
+    
     }
 
-}
+    /* desafio de sass y ceo */
+    .extend{
+        border-radius: 20px;
+        font-size: 30px;
+        text-align: center;
+        border: 5px dashed black;
+        padding: 1cm;
+        margin: 10px;
+        font-family: sans-serif;
+        height: 4cm;
+    }
+    
+    $estilosCup: (
+        cupUno: #ff3300,
+        cupDos: #09ff00,
+        cupTres: #ff0062
+    );
+    
+    .cuponUno {
+        background: map-get($estilosCup, cupUno);
+        @extend .extend;
+    
+    
+    }
+    .cuponDos{
+        background: map-get($estilosCup, cupDos);
+        @extend .extend;
+        
+    }
+    .cuponTres{
+        background: map-get($estilosCup, cupTres);
+        @extend .extend;
+    
+    }
+    /* mixin */
+    @mixin edit {
+        font-size: 10px;
+        color: white;
+        padding: 2px;
+        border: 2px solid white;
+        background-color: black  
+    }
+    
+    .cuponUno p{
+        @include edit;
+    }
+    .cuponDos p{
+        @include edit;
+    }
+    .cuponTres p{
+        @include edit;
+    }
+    
+    
 
+
+}
 
     
     

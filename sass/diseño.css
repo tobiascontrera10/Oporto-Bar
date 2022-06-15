@@ -381,4 +381,53 @@ body .data {
 #footerCuatro .redesCuatro img:hover{
   border: 2px outset black;
 }
-/*# sourceMappingURL=diseño.css.map */
+    /* desafio de sass y ceo */
+    
+.extend, .cuponUno, .cuponDos, .cuponTres {
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+  border: 5px dashed black;
+  padding: 1cm;
+  margin: 10px;
+  font-family: sans-serif;
+  height: 4cm;
+}
+
+.cuponUno {
+  background: #ff3300;
+}
+
+.cuponDos {
+  background: #09ff00;
+}
+
+.cuponTres {
+  background: #ff0062;
+}
+
+/* mixin */
+.cuponUno p {
+  font-size: 10px;
+  color: white;
+  padding: 2px;
+  border: 2px solid white;
+  background-color: black;
+}
+
+.cuponDos p {
+  font-size: 10px;
+  color: white;
+  padding: 2px;
+  border: 2px solid white;
+  background-color: black;
+}
+
+.cuponTres p {
+  font-size: 10px;
+  color: white;
+  padding: 2px;
+  border: 2px solid white;
+  background-color: black;
+}
+/*# sourceMappingURL=estilo.css.map */
