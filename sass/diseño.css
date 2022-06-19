@@ -382,28 +382,36 @@ body .data {
   border: 2px outset black;
 }
     /* desafio de sass y ceo */
+.codigos{
+    display: flex;
+    margin: 1cm;
+  }    
     
 .extend, .cuponUno, .cuponDos, .cuponTres {
   border-radius: 20px;
   font-size: 30px;
   text-align: center;
-  border: 5px dashed black;
+  border: 5px dashed #ff8800;
   padding: 1cm;
   margin: 10px;
   font-family: sans-serif;
   height: 4cm;
+  color: #ff8800 ;
+  font-family: 'Rubik Moonrocks', cursive;
+  height: 500px;
+  width: 450px;
 }
 
 .cuponUno {
-  background: #ff3300;
+  background: black;
 }
 
 .cuponDos {
-  background: #09ff00;
+  background: #202020;
 }
 
 .cuponTres {
-  background: #ff0062;
+  background: white;
 }
 
 /* mixin */
@@ -411,23 +419,26 @@ body .data {
   font-size: 10px;
   color: white;
   padding: 2px;
-  border: 2px solid white;
+  border: 2px solid #ff8800 ;
   background-color: black;
+  font-family: sans-serif;
 }
 
 .cuponDos p {
   font-size: 10px;
   color: white;
   padding: 2px;
-  border: 2px solid white;
+  border: 2px solid #ff8800 ;
   background-color: black;
+  font-family: sans-serif;
 }
 
 .cuponTres p {
   font-size: 10px;
   color: white;
   padding: 2px;
-  border: 2px solid white;
+  border: 2px solid #ff8800 ;
   background-color: black;
+  font-family: sans-serif;
 }
 /*# sourceMappingURL=estilo.css.map */

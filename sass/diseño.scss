@@ -334,21 +334,30 @@ body{
     }
 
     /* desafio de sass y ceo */
+    .codigos{
+        display: flex;
+        margin: 1cm;
+    }
+
     .extend{
         border-radius: 20px;
         font-size: 30px;
         text-align: center;
-        border: 5px dashed black;
+        border: 5px dashed rgb(255, 136, 0);
         padding: 1cm;
         margin: 10px;
         font-family: sans-serif;
         height: 4cm;
+        color: #ff8800 ;
+        font-family: 'Rubik Moonrocks', cursive;
+        height: 500px;
+        width: 450px;
     }
     
     $estilosCup: (
-        cupUno: #ff3300,
-        cupDos: #09ff00,
-        cupTres: #ff0062
+        cupUno: black,
+        cupDos: #202020,
+        cupTres: white
     );
     
     .cuponUno {
@@ -372,8 +381,9 @@ body{
         font-size: 10px;
         color: white;
         padding: 2px;
-        border: 2px solid white;
-        background-color: black  
+        border: 2px solid #ff8800 ;
+        background-color: black ;
+        font-family: sans-serif;
     }
     
     .cuponUno p{
